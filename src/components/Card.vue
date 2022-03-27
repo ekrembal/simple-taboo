@@ -2,7 +2,7 @@
 
 <div class="col-md-auto">
   <div class="card">
-    <div class="card-header">{{word}}</div>
+    <div class="card-header"><b>{{word}}</b></div>
     <div class="card-body">
       <ul class="list-group list-group-flush">
         <li v-for="restrictedWord in restrictedWords" :key="restrictedWord" class="list-group-item">{{restrictedWord}}</li>
