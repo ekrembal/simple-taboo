@@ -1,6 +1,6 @@
 <template>
 
-<div class="col-md-auto">
+<div  style="min-height: 300px;" class="col-md-auto">
   <div class="card">
     <div class="card-header"><b>{{word}}</b></div>
     <div class="card-body">

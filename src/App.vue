@@ -23,7 +23,7 @@
     <div class="row justify-content-center" style="text-align:center">
       <div class="col-md-auto">
         <div class="row">
-      <div class="col"><button v-on:click="newCard(-1)" type="button" class="btn btn-danger">Wrong</button></div>
+      <div class="col"><button v-on:click="newCard(-1)" type="button" class="btn btn-danger">Taboo</button></div>
       <div class="col"><button v-on:click="newCard(0)" type="button" class="btn btn-primary" v-bind:class="{ disabled: numSkips >= 3 }">Skip</button></div>
       <div class="col"><button v-on:click="newCard(1)" type="button" class="btn btn-success">Correct</button></div>
         </div></div>
@@ -144,8 +144,8 @@ body{
 
 .footer {
   position: absolute;
-  bottom: 0;
-  right: 10px;
+  bottom: 30px;
+  right: 30px;
   max-width: 20%;
   min-width: 200px;;
 }
